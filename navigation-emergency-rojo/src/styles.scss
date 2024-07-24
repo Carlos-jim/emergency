@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+/*
+
+.navbar {
+    background-color: rgba($color: #2780bb, $alpha: 1.0);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+    .navbar-nav {
+        list-style: none;
+        display: flex;
+
+        .nav-item {
+            margin-left: 20px;
+
+            .nav-link {
+                color: #fff;
+                text-decoration: none;
+
+                &:hover {
+                    color: #ddd;
+                }
+            }
+            .nav-register {
+                margin-left: 200px;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background: #ceefff;
+    transition: 0.5s;
+}
+
+.container.dark{
+    background: #222;
+}

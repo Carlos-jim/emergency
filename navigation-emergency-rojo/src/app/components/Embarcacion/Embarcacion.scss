@@ -1,0 +1,76 @@
+.register-form {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px; 
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .register-form .card {
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .register-form .card-body {
+    padding: 20px;
+  }
+  
+  .register-form .form-control {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .register-form .form-floating {
+    margin-bottom: 20px;
+  }
+  
+  .register-form .row > .col-md-6 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .register-form .row > .col-md-6 .form-floating {
+    margin-bottom: 20px;
+  }
+  
+  .register-form .btn {
+    padding: 10px;
+    background-color: #5ca3ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-form .btn:hover {
+    background-color: #4a90e2;
+  }
+  
+  
+  .form-control {
+    width: 100%;
+    height: 55px; 
+    padding: 25px 30px;
+    font-size: 1rem; 
+    box-shadow: 2px 2px 5px rgba(3, 19, 165, 0.3);
+    background-color: #ffffff;
+    margin-bottom: 35px;
+  }
+
+  .floating {
+    margin: 10px;
+    padding: 25px;
+    width: 100%;
+    height: 95px;
+  
+  }
+  
+  #submit-button {
+    display: block;
+    margin: 20px auto 0; // Centra el botón horizontalmente y añade margen superior
+    width: 250px; // Ajusta el ancho del botón automáticamente
+    max-width: 200px; 
+  }
+  
+  
